@@ -1,0 +1,32 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: #000201;
+    opacity: 0.94;
+    overflow: hidden;
+}
+
+#bg{
+    opacity: 0.94;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+
+}
+
+#name{
+    text-decoration: none;
+    color: #a75cd3;
+    font-size: 14vw;
+    position: absolute;
+    top: 20vw;
+    right: 10vw;
+    
+}
+
+#name:hover{
+    transform: scale(1.1);
+    color:  #00cba7;
+}
