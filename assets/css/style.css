@@ -1,32 +1,200 @@
 body, html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100%;
     margin: 0;
-    background-color: #000201;
-    opacity: 0.94;
-    overflow: hidden;
 }
 
-#bg{
-    opacity: 0.94;
-    width: auto;
-    height: 100%;
-    margin: 0;
-    top: 0;
-    left: 0;
-
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: #5f5e5e;
+    font-weight: bolder;
 }
 
-#name{
-    text-decoration: none;
-    color: #a75cd3;
-    font-size: 14vw;
-    position: absolute;
-    top: 20vw;
-    right: 10vw;
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 200%;
+    color: #5f5e5e;
+    margin-left: 0px;
     
 }
 
-#name:hover{
-    transform: scale(1.1);
-    color:  #00cba7;
+.middle{
+    height:1.2px;
+    background-color: rgb(168, 59, 182);
+}
+
+footer {
+    /* background-color: #222222; */
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* opacity: 0.85; */
+    background-color: #fbf9fc;
+}
+
+.footer-text{
+    font-size: 12px;
+    color: #8772b5;
+}
+
+.up-arrow{
+    color: #a75cd3;
+    font-size: 19px;
+}
+
+.up-arrow:hover{
+    color: #a75cd3;
+}
+
+.bgimg-1, #intro-image{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.94; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.94; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.94; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.94; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.94; }
+}
+
+.scroll{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.7;
+    font-size: 35px;
+    z-index: initial;
+
+}
+
+
+.bounce {
+    visibility: hidden;
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.d-flex{
+    display: flex;
+    display: -webkit-flex; /* Safari */ 
+}
+
+.d-inlineflex{
+    display: inline-flex;
+    display: -webkit-inline-flex; /* Safari */ 
+}
+
+.flex-row{
+    flex-direction: row;
+    -ms-flex-direction: row;
+       
+}
+
+.flex-wrap{
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+.word-wrap{
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.flex-row-reverse{
+    flex-direction: row-reverse;
 }

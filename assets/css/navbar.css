@@ -1,0 +1,119 @@
+.navbar {
+    opacity: 0.87;   
+}
+
+.navbar-brand{
+    font-size: 28px;
+}
+
+li{
+    font-size: 22px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #bb68eb;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+#my-name:hover{
+    color: grey;
+    color: #bb68eb;
+    cursor: default;
+}
+
+.nav.navbar-nav li.active a {
+    /* background-color:#a75cd3; */
+    background-color: transparent;
+    color: #bb68eb;
+    /* border-bottom: 2px #bb68eb solid; */
+    /* text-decoration: underline; */
+}
+
+
+
+.nav.navbar-nav li.active a:hover {
+    background-color: transparent;
+    color: #bb68eb;
+}
+
+.icon-bar{
+    background-color:#bb68eb;
+}
+
+.projects:hover{
+    cursor: pointer;
+}
+
+
+#nav-about:hover, #nav-portfolio:hover{
+    color: #bb68eb;
+    background-color: transparent;
+} 
+
+#social-icon-github, #social-icon-linkedin, #social-icon-email{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#social-icon-github:hover, #social-icon-linkedin:hover, #social-icon-email:hover{
+    text-decoration: none;
+    color: #bb68eb;
+    margin-bottom: -2px;
+    border-bottom: 2px #bb68eb solid;
+
+}
+
+.navbar-fade-in{
+    -webkit-animation: fadeinNav 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeinNav 2s; /* Firefox < 16 */
+        -ms-animation: fadeinNav 2s; /* Internet Explorer */
+         -o-animation: fadeinNav 2s; /* Opera < 12.1 */
+            animation: fadeinNav 2s;
+
+}
+
+@keyframes fadeinNav {
+    0% {opacity: 0; }
+    25%  {opacity: 0.235;}
+    50%  {opacity: 0.47;}
+    75%  {opacity: 0.705;}
+    100% {opacity: 0.87;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinNav {
+    0% {opacity: 0; }
+    25%  {opacity: 0.235;}
+    50%  {opacity: 0.47;}
+    75%  {opacity: 0.705;}
+    100% {opacity: 0.87;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinNav {
+    0% {opacity: 0; }
+    25%  {opacity: 0.235;}
+    50%  {opacity: 0.47;}
+    75%  {opacity: 0.705;}
+    100% {opacity: 0.87;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinNav {
+    0% {opacity: 0; }
+    25%  {opacity: 0.235;}
+    50%  {opacity: 0.47;}
+    75%  {opacity: 0.705;}
+    100% {opacity: 0.87;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinNav {
+    0% {opacity: 0; }
+    25%  {opacity: 0.235;}
+    50%  {opacity: 0.47;}
+    75%  {opacity: 0.705;}
+    100% {opacity: 0.87;}
+}

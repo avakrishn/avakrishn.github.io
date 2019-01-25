@@ -1,0 +1,549 @@
+
+body{
+    /* background-color: #fbf9fc; */
+    background-color: #000201;
+    /* opacity: 0.94; */
+}
+
+.light-background{
+    background-color: #fbf9fc;
+}
+#navbar-index{
+    visibility: hidden;
+}
+
+
+#nav-portfolio:hover{
+    margin-bottom: -2px;
+    border-bottom: 2px #bb68eb solid;
+}
+
+#nav-about:hover{
+    cursor: default;
+}
+
+
+.row.content {
+    margin-top: 80px;
+    margin-bottom: 60px;    
+}
+
+#mainImage{
+    width: 160px;
+    height: auto;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+#myImage{
+    display: flex;
+    align-self: baseline;
+    width: 170px;
+    height: auto; 
+    border-radius: 9px;
+    /* margin-bottom: 15px; */
+    margin-left: 11%;
+}
+
+.about-me{
+    padding-top: 5%;
+}
+
+#about-divider{
+    margin-left: 7%;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    /* border-bottom: 2px solid rgb(155, 47, 7); */
+    /* color: rgb(221, 93, 46); */
+    border-bottom: 2px solid rgb(161, 74, 34);
+    color: rgb(161, 74, 34);
+    /* color: rgb(146, 64, 27); */
+    font-size: 30px;
+    text-align: center;
+}
+
+#socials{
+    margin-left: 7%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#socials-page-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+#about-github, #about-linkedin, #about-email, #about-overflow, #about-repl{
+    text-decoration: none;
+    margin: 30px 22px;
+}
+
+#about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
+    text-decoration: none;
+    margin: 35px 35px;
+}
+
+#about-overflow, #about-overflow-page-bottom{
+    color: #f48024;
+}
+
+#about-email, #about-email-page-bottom{
+    color: green;
+}
+
+#about-linkedin, #about-linkedin-page-bottom{
+    color: #0077b5;
+}
+
+#about-github, #about-github-page-bottom{
+    color: #7e5ead;
+}
+
+#about-repl{
+    width: 37px;
+    height: 37px;
+    opacity: 0.9;
+}
+
+#about-repl-page-bottom{
+    width: 43px;
+    height: 43px;
+    opacity: 0.9;
+}
+
+#about-github:hover, #about-linkedin:hover, #about-email:hover, #about-overflow:hover, #about-repl:hover, #about-github-page-bottom:hover, #about-linkedin-page-bottom:hover, #about-email-page-bottom:hover, #about-overflow-page-bottom:hover, #about-repl-page-bottom:hover{
+    cursor:pointer;
+    opacity: 0.75;
+}
+
+#repl-div{
+    width: fit-content;
+    height: fit-content;
+    display:inline-block; 
+    line-height:0;
+}
+
+.image-text{
+    margin-left: 15px;
+}
+
+.jumbotron{
+    margin-bottom: 0px;
+}
+
+#word-tag-div{
+    background-color: black; 
+    opacity: 0.94;
+}
+
+#intro-image{
+    background-image: url("../images/blue-purple-right.jpg");
+    background-position:right;
+    opacity: 0.94;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000201;
+    min-height: 100%;
+    z-index: 20;
+
+}
+
+#about-me{
+    background-image: url("../images/yellow-purple-right.jpg");
+    background-position:right;
+    /* opacity: 0.94; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000201;
+    min-height: 115%;
+    z-index: 20;
+}
+
+
+.typewriter-div{ 
+    margin-top: 14%;
+    margin-left: 5%;
+    
+  
+}
+
+.typewriter-message{ 
+    color: #009e95;
+    font-size: 45px;
+    line-height: 170%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.purple-text{
+    color: #a75cd3;
+}
+
+
+
+.i-color{
+    color: #00cba7;
+}
+
+.clear-float{
+    float:none;
+}
+.float-left{
+    float: right;
+}
+
+
+.about-me-text{
+    /* color: rgb(161, 74, 34); */
+    /* color: rgb(128, 128, 128); */
+    color: rgb(158, 135, 112);
+
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.about-me-text-under-photo{
+    /* color: rgb(128, 128, 128); */
+    color: rgb(158, 135, 112);
+    font-size: 19px;
+    margin-left: 11%;
+}
+
+.created-divider{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(168, 59, 182);
+    color: rgb(168, 59, 182);
+    /* color: purple; */
+    font-size: 27px;
+    text-align: center;
+}
+
+.created-images-div{
+    justify-content: center;
+}
+
+.created-images-parent{
+    width: 360px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #dcd7df;
+    margin: 0 10px 0 10px;
+
+}
+
+.created-images{
+    /* width: 360px;
+    height: 200px; */
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    overflow: hidden;
+    position: absolute;
+}
+
+.created-images:hover{
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    overflow: hidden;
+}
+
+
+
+.font-15{
+    font-size: 15px;
+}
+
+.font-15-5{
+    font-size: 15.26px;
+}
+
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-17{
+    font-size: 17px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+.font-23{
+    font-size: 23px;
+}
+#mainInfo{
+    min-height: 100%;
+}
+
+#tech-skills{
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+.w-94{
+    width: 94%;
+}
+
+.w-330px{
+    width: 330px;
+}
+
+.all-apps{
+    text-align: center;
+    margin-bottom:40px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+} 
+
+.text-center{
+    text-align: center;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.all-apps-link{
+    color: navy;
+    font-size: 20px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-30{
+    margin-top: 40px;
+}
+
+.pb-30{
+    padding-bottom: 30px;
+}
+
+.pt-30{
+    padding-top: 30px;
+}
+
+.pb-40{
+    padding-bottom: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-5{
+    margin-bottom: 5px
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+
+.color-navy{
+    color: navy;
+}
+
+.color-purple{
+    color: purple;
+}
+
+.color-apps{
+    /* color: rgb(14, 80, 85); */
+    color: rgb(0, 119, 128);
+
+    /* color: green; */
+}
+
+.job-title{
+    font-style: italic; 
+    color: rgb(97, 93, 93);
+}
+
+.tech-stack{
+    color: rgb(122, 48, 122); 
+    /* background-color: rgb(122, 48, 122);  */
+    /* color: #fbf9fc; */
+    border: 1px rgb(122, 48, 122) solid; 
+    border-radius: 6px;
+    padding: 0px 3px;
+    margin: 3px;
+}
+
+.skills-div-parent{
+    text-align: justify; 
+    width: fit-content; 
+    margin: 0 auto;
+}
+
+#front-end{
+    color: rgb(156, 35, 35);
+    border-bottom: 1px rgb(156, 35, 35) solid; 
+}
+
+.front-end-stack{
+    color: rgb(156, 35, 35);
+    /* background-color: rgb(156, 35, 35); */
+    /* color: #fbf9fc; */
+    border: 1px rgb(156, 35, 35) solid; 
+    border-radius: 6px;
+    padding: 1px 5px;
+    margin: 3px;
+
+}
+
+#back-end{
+    color: rgb(1, 106, 114);
+    border-bottom: 1px rgb(1, 106, 114) solid;
+}
+.back-end-stack{
+    color: rgb(1, 106, 114);
+    /* background-color: rgb(1, 106, 114); */
+    /* color: #fbf9fc; */
+    border: 1px rgb(1, 106, 114) solid; 
+    border-radius: 6px;
+    padding: 1px 5px;
+    margin: 3px;
+
+}
+
+#other-tech{
+    color: navy;
+    border-bottom: 1px navy solid;
+}
+
+.other-tech-stack{
+    color: navy;
+    /* background-color: navy; */
+    /* color: #fbf9fc; */
+    border: 1px navy solid; 
+    border-radius: 6px;
+    padding: 1px 5px;
+    margin: 3px;
+
+}
+
+.line-height-30{
+    line-height: 30px;
+}
+
+#contact-me{
+    color: #fbf9fc;
+    padding: 7px 10px;
+    background-color: purple;
+    border: 1px  purple solid;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#contact-me:hover{
+    opacity: 0.85;
+}
+
+@media screen and (max-width: 767px) {
+    .row.content {height:auto;} 
+
+    .center-picture{
+        width: 100%;
+    }
+
+    .image-text{
+        margin-left: 0px;
+    }
+    #intro-image, #about-me{
+        background-image: none;
+    }
+    #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
+        text-decoration: none;
+        margin: 35px 22px;
+    }
+    #socials-page-bottom{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    #hangmanText, #rpgText, #triviaText, #rutgersText, #scissorsText{
+        font-size: 300%;
+    }
+    a, .footer-text{
+        font-size: 200%;
+    }
+    strong{
+        font-size: 200%;
+    }
+    .navbar-brand{
+        margin-top: 20px;
+    }
+
+    .nav.navbar-nav li.active a {
+        padding: 30px;
+    }
+    .project, .projects, .contact{
+        margin: 15px;
+        margin-bottom: 0px;
+    }
+
+    .glyphicon{
+        font-size: 30px;
+    }
+} 
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1023px) {
+    .intro-image, .about-me{
+        background-attachment: scroll;
+        min-height: 0%;
+        background-image: none;
+        padding: 0;
+    }
+
+}
+@media screen and (min-device-width: 1024px){
+    
+    .intro-image, .about-me{
+        padding: 0;
+    }
+} 
+
+
+@media screen and (max-width: 1225px){
+    .intro-image, .about-me {
+        background-size: 54.5% 100%;
+    }
+}
