@@ -1,18 +1,350 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome!</title>
+    <title>Avanika Krishnaswamy</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <meta property="og:title" content="Avanika Krishnaswamy Portfolio">
+    <meta property="og:description" content="Professional Portfolio Built Using JavaScript, HTML, & CSS">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://avakrishn.github.io/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
-   
-    <img id="bg" src="assets/images/blue-purple-left.jpg" alt="Background Image">
-    
-    <a id="name" href="https://avakrishn.github.io/Portfolio/">Avanika</a>
-    
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top mb-0 rounded-0" id="navbar-index">
+        <div class="container-fluid">
+            <div class="col-md-1"></div>
+
+            <div class="col-md-10">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" id="my-name" type="button" disabled><strong>Avanika Krishnaswamy</strong></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- <li class="active nav-item"><a class="nav-link" id="nav-about" type="button" disabled>Home</a></li> -->
+                        <!-- <li class="nav-item"><a class="nav-link" id="nav-portfolio" href="portfolio.html">Portfolio</a></li> -->
+                        <!-- <li class="dropdown">
+                            <a class="dropdown-toggle projects" data-toggle="dropdown">Projects
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-left">
+                                <li class="nav-item"><a class="nav-link" target="_blank" href="https://avakrishn.github.io/Staycation/">Staycation</a></li>
+                                <li class="nav-item"><a class="nav-link"  target="_blank" href="https://avakrishn.github.io/Word-Guess-Game/">Guess the Word: Countries in Europe!</a></li>
+                                <li class="nav-item"><a class="nav-link"  target="_blank" href="https://avakrishn.github.io/Trivia-Game/">Emoji Trivia Game: What's The Movie?</a></li>
+                                <li class="nav-item"><a class="nav-link"  target="_blank" href="https://github.com/avakrishn/bamazon-mysql">Bamazon</a></li>
+                                <li class="nav-item"><a class="nav-link"  target="_blank" href="https://github.com/avakrishn/LIRI-node-app">LIRI</a></li>
+                            </ul>
+                        </li> -->
+                        <li><a href="https://github.com/avakrishn" target="_blank" class="fab fa-github" id="social-icon-github"></a></li>
+                        <li><a href="https://www.linkedin.com/in/avakrishn" target="_blank" class="fab fa-linkedin" id="social-icon-linkedin"></a></li>
+                        <li><a href="mailto:avakrishn@gmail.com?Subject=Hello" target="_top" class="fas fa-envelope-open-text"
+                                id="social-icon-email"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>
+
+    </nav>
+    <div class="container-fluid" id="intro-image" class="intro-background">
+        <!-- <code>
+                &lt;h2&gt; Hello! My name is Avanika Krishnaswamy. &lt;h2&gt;
+                <br>
+                &lt;h2&gt; I'm a <span>mission-driven</span> and user-focused Full-Stack Web Developer  &lt;h2&gt;
+        </code> -->
+        <div class="col-sm-7 col-md-7 text-start pl-5 typewriter-div">
+            <span id="type-a" class="typewriter-message"></span>
+            <span id="type-b" class="typewriter-message purple-text"></span>
+            <br>
+            <span id="type-c" class="typewriter-message"></span>
+            <span id="type-d" class="typewriter-message purple-text"></span>
+            <span id="type-e" class="typewriter-message"></span>
+            <span id="type-f" class="typewriter-message purple-text"></span>
+            <br>
+            <span id="type-g" class="typewriter-message"></span>
+            <span id="type-h" class="typewriter-message purple-text"></span>
+        </div>
+        <div class="container text-center scroll bounce">
+            <div class="row">
+                <i class="fas fa-angle-down i-color"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid" id="about-me">
+        <div class="col-md-7 about-me">
+            <div id="about-divider">WHAT I CAN DO</div>
+            <div class="w-94">
+                <div class="d-flex flex-row">
+                    <img id='myImage' src="assets/images/picture-prof.png" alt="Avanika">
+                    <div class="d-flex flex-column">
+                        <br>
+                        <div class="about-me-text">I am a Full-Stack Developer and Blockchain Engineer who creates
+                            database-centric, decentralized, and robust applications.</div>
+                        <br>
+                        <br>
+                        <div class="about-me-text">As a mission-driven engineer, I am adept at incorporating
+                            technologies to find straightforward and efficient solutions to complex and abstract
+                            problems.</div>
+                        <br>
+                    </div>
+
+                </div>
+                <br>
+                <div class="about-me-text-under-photo"> I thrive working in fast-paced creative teams and hold strong
+                    decision making and collaborative skills. </div>
+                <br>
+                <div class="about-me-text-under-photo">My interests primarily lie in designing and developing web and
+                    mobile applications that are innovative, interactive, and impactful.</div>
+                <div id="socials">
+                    <a href="https://github.com/avakrishn" target="_blank" class="fab fa-github" id="about-github"></a>
+                    <a href="https://www.linkedin.com/in/avakrishn" target="_blank" class="fab fa-linkedin" id="about-linkedin"></a>
+                    <a href="https://repl.it/@avakrishn" target="_blank" id="repl-div" class="m-0 p-0"><img src="assets/images/repl-it.png"
+                            id="about-repl"></img></a>
+                    <a href="https://stackoverflow.com/users/9754261/avakrishn" target="_blank" class="fab fa-stack-overflow"
+                        id="about-overflow"></a>
+                    <a href="mailto:avakrishn@gmail.com?Subject=Hello" target="_top" class="fas fa-envelope-open-text"
+                        id="about-email"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid light-background">
+        <div class="row content">
+
+            <div class="col-md-12">
+
+                <div class="container" id='mainInfo'>
+                    <div class="created-divider">WHAT I HAVE CREATED</div>
+                    <div class="d-flex flex-row flex-wrap created-images-div">
+                        <div class="mb-20 mt-20">
+                            <div class="font-23 text-center color-apps mb-8">AcceptMyCrypto</div>
+                            <div class="d-flex flex-row justify-content-between mr-20 ml-20 mb-5">
+                                <div class="font-15 color-navy"> <a class="font-15 color-navy" href="http://bit.ly/AMC-Web"
+                                        target="_blank">Web</a> | <a class="font-15 color-navy" href="http://bit.ly/AMC-Mobile"
+                                        target="_blank">Mobile</a></div>
+                                <div><a class="font-15 color-navy" href="http://bit.ly/AcceptMyCrypto" target="_blank">Live</a></div>
+                            </div>
+                            <div class="created-images-parent">
+                                <img class="created-images" src="./assets/images/acceptmycrypto-deal.png" alt="AcceptMyCrypto">
+                            </div>
+                            <div class="word-wrap ml-20 w-330px mt-10">
+                                <div class="font-16 color-apps">Crypto Marketplace</div>
+                                <div class="font-15 job-title mb-8">Full Stack Web & Mobile Developer</div>
+                                <div class="d-flex flex-row flex-wrap">
+                                    <span class="tech-stack">React</span>
+                                    <span class="tech-stack">React Native</span>
+                                    <span class="tech-stack">JavaScript</span>
+                                    <span class="tech-stack">Redux</span>
+                                    <span class="tech-stack">Node</span>
+                                    <span class="tech-stack">Express</span>
+                                    <span class="tech-stack">SQL</span>
+                                    <span class="tech-stack">MySQL</span>
+                                    <span class="tech-stack">HTML</span>
+                                    <span class="tech-stack">CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-20 mt-20">
+                            <div class="font-23 text-center color-apps mb-8">Web Dev Cards</div>
+                            <div class="d-flex justify-content-center mr-20 ml-20 mb-5">
+                                <!-- <div class="d-flex flex-row justify-content-between mr-20 ml-20 mb-5"> -->
+                                <div><a class="font-15 color-navy" href="http://bit.ly/github-WebDev" target="_blank">GitHub</a></div>
+                                <!-- <div><a class="font-15 color-navy"  target="_blank">Live</a></div> -->
+                            </div>
+                            <div class="created-images-parent">
+                                <img class="created-images" src="./assets/images/web-dev-cards.png" alt="WebDevCards">
+                            </div>
+                            <div class="word-wrap ml-20 w-330px mt-10">
+                                <div class="font-16 color-apps">Community Based Flashcard Application</div>
+                                <div class="font-15 job-title mb-8">Full Stack Developer</div>
+                                <div class="d-flex flex-row flex-wrap">
+                                    <span class="tech-stack">JavaScript</span>
+                                    <span class="tech-stack">jQuery</span>
+                                    <span class="tech-stack">Node</span>
+                                    <span class="tech-stack">Express</span>
+                                    <span class="tech-stack">SQL</span>
+                                    <span class="tech-stack">MySQL</span>
+                                    <span class="tech-stack">HTML</span>
+                                    <span class="tech-stack">CSS</span>
+                                    <span class="tech-stack">Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-20 mt-20">
+                            <div class="font-23 text-center color-apps mb-8">Staycation</div>
+                            <div class="d-flex flex-row justify-content-between mr-20 ml-20 mb-5">
+                                <div> <a class="font-15 color-navy" href="http://bit.ly/github-Staycation" target="_blank">GitHub</a></div>
+                                <div><a class="font-15 color-navy" href="http://bit.ly/StaycationApp" target="_blank">Live</a></div>
+                            </div>
+                            <div class="created-images-parent">
+                                <img class="created-images" src="./assets/images/staycation-favorites-image.png" alt="Staycation">
+                            </div>
+                            <div class="word-wrap ml-20 word-wrap w-330px mt-10">
+                                <div class="font-16 color-apps">Restaurant, Top-attractions, & Event Planner</div>
+                                <div class="font-15 job-title mb-8">Front-End Developer & Product Manager</div>
+                                <div class="d-flex flex-row flex-wrap">
+                                    <span class="tech-stack">JavaScript</span>
+                                    <span class="tech-stack">jQuery</span>
+                                    <span class="tech-stack">HTML</span>
+                                    <span class="tech-stack">CSS</span>
+                                    <span class="tech-stack">Bootstrap</span>
+                                    <span class="tech-stack">Firebase</span>
+                                    <span class="tech-stack">APIs</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-20 mt-20 mr-20">
+                            <div class="font-23 text-center color-apps mb-8">IntSwaps</div>
+                            <div class="d-flex flex-row justify-content-center mr-20 ml-20 mb-5">
+                                <div> <a class="font-15 color-navy" href="http://bit.ly/Int-Swaps" target="_blank">GitHub</a></div>
+                                <!-- <div><a class="font-15 color-navy" target="_blank">Live</a></div> -->
+                            </div>
+                            <div class="created-images-parent">
+                                <img class="created-images" src="./assets/images/Int-Swap-dApp.png" alt="IntSwaps">
+                            </div>
+                            <div class="word-wrap ml-20 word-wrap w-330px mt-10">
+                                <div class="font-15-5 color-apps">Interest Rate Swaps on the Ethereum Blockchain</div>
+                                <div class="font-15 job-title mb-8">Full Stack Developer & Blockchain Engineer</div>
+                                <div class="d-flex flex-row flex-wrap">
+                                    <span class="tech-stack">JavaScript</span>
+                                    <span class="tech-stack">Solidity</span>
+                                    <span class="tech-stack">Web3.js</span>
+                                    <span class="tech-stack">jQuery</span>
+                                    <span class="tech-stack">OpenZeppelin</span>
+                                    <span class="tech-stack">Truffle Framework</span>
+                                    <span class="tech-stack">HTML</span>
+                                    <span class="tech-stack">CSS</span>
+                                    <!-- <span class="tech-stack">Bootstrap</span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-20 mt-20 mr-20">
+                            <div class="font-23 text-center color-apps mb-8">AuthSnkr</div>
+                            <div class="d-flex flex-row justify-content-center mr-20 ml-20 mb-5">
+                                <div> <a class="font-15 color-navy" href="http://bit.ly/AuthSnkr" target="_blank">GitHub</a></div>
+                                <!-- <div><a class="font-15 color-navy" target="_blank">Live</a></div> -->
+                            </div>
+                            <div class="created-images-parent">
+                                <img class="created-images" src="./assets/images/AuthSNKR-dApp.png" alt="AuthSnkr">
+                            </div>
+                            <div class="word-wrap ml-20 word-wrap w-330px mt-10">
+                                <div class="font-15 color-apps">Authenticating Footwear on the Blockchain</div>
+                                <div class="font-15 job-title mb-8">Full Stack Developer & Blockchain Engineer</div>
+                                <div class="d-flex flex-row flex-wrap">
+                                    <span class="tech-stack">JavaScript</span>
+                                    <span class="tech-stack">Solidity</span>
+                                    <span class="tech-stack">Web3.js</span>
+                                    <span class="tech-stack">jQuery</span>
+                                    <span class="tech-stack">OpenZeppelin</span>
+                                    <span class="tech-stack">Truffle Framework</span>
+                                    <span class="tech-stack">HTML</span>
+                                    <span class="tech-stack">CSS</span>
+                                    <!-- <span class="tech-stack">Bootstrap</span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <div class="mt-30 all-apps"><a href="./portfolio.html" class="all-apps-link">ALL APPLICATIONS</a></div> -->
+                </div>
+                <div class="text-center" id="tech-skills">
+                    <div class="container created-divider mb-50">WHAT I KNOW</div>
+                    <div class="container skills-div-parent pt-30 pb-30">
+                        <div class="font-17 line-height-30">
+                            <span id="front-end">Front-End:</span>
+                            <span class="front-end-stack">JavaScript</span>
+                            <span class="front-end-stack">React.js</span>
+                            <span class="front-end-stack">Redux</span>
+                            <span class="front-end-stack">React Native</span>
+                            <span class="front-end-stack">Web3.js</span>
+                            <span class="front-end-stack">EJS</span>
+                            <span class="front-end-stack">jQuery</span>
+                            <span class="front-end-stack">AJAX</span>
+                            <span class="front-end-stack">HTML</span>
+                            <span class="front-end-stack">CSS</span>
+                            <span class="front-end-stack">Bootstrap</span>
+                        </div>
+                        <br>
+                        <div class="font-17 line-height-30">
+                            <span id="back-end">Back-End:</span>
+                            <span class="back-end-stack">Node.js</span>
+                            <span class="back-end-stack">Express.js</span>
+                            <span class="back-end-stack">SQL</span>
+                            <span class="back-end-stack">MySQL</span>
+                            <span class="back-end-stack">MongoDB</span>
+                            <span class="back-end-stack">Solidity</span>
+                            <span class="back-end-stack">OpenZeppelin</span>
+                            <span class="back-end-stack">Ethereum Blockchain</span>
+                            <span class="back-end-stack">API</span>
+                        </div>
+                        <br>
+                        <div class="font-17 line-height-30">
+                            <span id="other-tech">Other Tech:</span>
+                            <span class="other-tech-stack">Truffle Framework</span>
+                            <span class="other-tech-stack">Remix IDE</span>
+                            <span class="other-tech-stack">Python</span>
+                            <span class="other-tech-stack">Object Oriented Programming</span>
+                            <span class="other-tech-stack">Chrome DevTools</span>
+                            <span class="other-tech-stack">NPM</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="text-center" id="contact-info">
+                    <div class="container created-divider">HOW I CAN HELP YOU</div>
+                    <div class="font-20 color-purple pb-40">If you would like to collaborate with a conscientious,
+                        team-oriented, and communicative Full-Stack Developer, then please get in touch.</div>
+                    <a class="font-20" id="contact-me" href="mailto:avakrishn@gmail.com?Subject=Hello" target="_top">Contact
+                        Me <i class="fas fa-paper-plane ml-10"></i></a>
+                    <div id="socials-page-bottom">
+                        <a href="https://github.com/avakrishn" target="_blank" class="fab fa-github" id="about-github-page-bottom"></a>
+                        <a href="https://www.linkedin.com/in/avakrishn" target="_blank" class="fab fa-linkedin" id="about-linkedin-page-bottom"></a>
+                        <a href="https://repl.it/@avakrishn" target="_blank" id="repl-div" class="m-0 p-0"><img src="assets/images/repl-it-white-background.png"
+                                id="about-repl-page-bottom"></img></a>
+                        <a href="https://stackoverflow.com/users/9754261/avakrishn" target="_blank" class="fab fa-stack-overflow"
+                            id="about-overflow-page-bottom"></a>
+                        <a href="mailto:avakrishn@gmail.com?Subject=Hello" target="_top" class="fas fa-envelope-open-text"
+                            id="about-email-page-bottom"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container-fluid text-center">
+        <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p class='footer-text'>Copyright © 2018</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
+
 </html>
