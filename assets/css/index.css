@@ -768,7 +768,8 @@ body{
     }
 
     #about-me{
-        margin-top: 100px;
+        padding-top: 100px;
+
     }
     #intro-image{
         margin-bottom: 100px;
