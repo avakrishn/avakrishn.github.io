@@ -771,7 +771,7 @@ body{
     }
 }
 
-@media screen and (max-width: 401px){
+@media screen and (max-width: 420px){
     #my-name{
         display: none;
         visibility: hidden;
