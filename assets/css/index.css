@@ -215,6 +215,7 @@ body{
     color: rgb(158, 135, 112);
     font-size: 19px;
     margin-left: 11%;
+    width: 90%;
 }
 
 .created-divider{
@@ -364,6 +365,10 @@ body{
     margin-top: 10px;
 }
 
+.mr-10{
+    margin-right: 10px;
+}
+
 .ml-10{
     margin-left: 10px;
 }
@@ -480,6 +485,10 @@ body{
         width: 100%;
     }
 
+    #intro-image{
+        height: 100%;
+    }
+
     .image-text{
         margin-left: 0px;
     }
@@ -525,25 +534,140 @@ body{
 
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1023px) {
-    .intro-image, .about-me{
+@media only screen and (max-device-width: 1026px){
+    #intro-image, #about-me{
         background-attachment: scroll;
         min-height: 0%;
         background-image: none;
         padding: 0;
     }
 
+    .typewriter-div, .about-me{
+        min-width: 100%;
+        margin-bottom: 25px;
+    }
+
 }
+
+@media screen and (max-width: 1026px) {
+    #intro-image, #about-me{
+        background-attachment: scroll;
+        min-height: 0%;
+        background-image: none;
+        padding: 0;
+    }
+    /* #intro-image{
+        height: 45%;
+    } */
+
+    .typewriter-div, .about-me{
+        min-width: 100%;
+        margin-bottom: 25px;
+    }
+    .col-md-1{
+        display: none;
+    }
+    .col-md-10{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+
 @media screen and (min-device-width: 1024px){
     
-    .intro-image, .about-me{
+    #intro-image, #about-me{
         padding: 0;
     }
 } 
 
 
 @media screen and (max-width: 1225px){
-    .intro-image, .about-me {
+    #intro-image, #about-me {
         background-size: 54.5% 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .typewriter-message{
+        font-size: 31px;
+    }
+    #about-divider, .created-divider{
+        font-size: 24px;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+    #my-name{
+        font-size: 18px;
+    }
+
+    nav .nav.navbar-nav{
+        display: flex;
+    }
+
+    .typewriter-div{
+        line-height: 5;
+        padding-top: 60px;
+    }
+
+    .typewriter-message{
+        font-size: 31px;
+    }
+    #type-g{
+        margin-right: 150px;
+    }
+    .col-md-1{
+        display: none;
+    }
+    .col-md-10{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #intro-image{
+        height: 80%;
+    }
+    .scroll{
+        margin-bottom: 28px;
+    }
+    .media-flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #myImage{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .about-me-text-under-photo{
+        margin-left: 20px;
+    }
+    .media-r-0{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 380px){
+    #my-name{
+        font-size: 17px;
+    }
+    #intro-image{
+        height: 87%;
+    }
+}
+
+@media screen and (max-width: 415px){
+    #intro-image{
+        height: 87%;
+    }
+}
+
+@media screen and (max-width: 362px){
+    #my-name{
+        font-size: 16px;
     }
 }
