@@ -764,6 +764,7 @@ body{
     }
     .typewriter-div{
         padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     #about-me{
