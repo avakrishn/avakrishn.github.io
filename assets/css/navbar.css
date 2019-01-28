@@ -16,6 +16,10 @@ li{
     font-weight: bold;
 }
 
+#my-sm-name{
+    display: none;
+    /* visibility: hidden; */
+}
 
 #my-name:hover{
     color: grey;
