@@ -685,13 +685,13 @@ body{
 
 @media screen and (max-width: 325px){
     .created-images-parent{
-        width: 300px;
+        width: 320px;
     }
     .w-330px{
-        width: 300px;
+        width: 320px;
     }
     .light-background{
-        width: min-content;
+        width: 330px;
         padding: 0;
         padding-right: 20px;
     }
@@ -701,5 +701,8 @@ body{
     }
     .about-me{
         padding-left: 40px;
+    }
+    #about-github, #about-linkedin, #about-email, #about-overflow, #about-repl, #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
+        margin: 30px 10px;
     }
 }
