@@ -769,6 +769,9 @@ body{
     #about-me{
         margin-top: 100px;
     }
+    #intro-image{
+        margin-bottom: 100px;
+    }
 
     #my-name{
         display: none;
@@ -782,11 +785,6 @@ body{
     #my-sm-name{
         display: inline;
         font-size: 16px;
-    }
-
-    #about-me{
-        padding-top: 100px;
-        /* margin-top: 100px; */
     }
 }
 
