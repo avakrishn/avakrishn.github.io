@@ -657,6 +657,7 @@ body{
         flex: 0 0 100%;
         max-width: 100%;
         padding-left: 0;
+        padding-right: 0;
     }
     /* #intro-image{
         height: 80%;
@@ -681,6 +682,7 @@ body{
 
     .media-nav-container{
         padding-left: 0;
+        padding-right: 0;
     }
     .about-divider{
         padding-top: 20px;
