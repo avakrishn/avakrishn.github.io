@@ -745,7 +745,7 @@ body{
     }
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 420px){
     /* #intro-image{
         height: 87%;
     } */
@@ -769,9 +769,7 @@ body{
     #about-me{
         margin-top: 100px;
     }
-}
 
-@media screen and (max-width: 420px){
     #my-name{
         display: none;
         visibility: hidden;
@@ -787,7 +785,8 @@ body{
     }
 
     #about-me{
-        margin-top: 100px;
+        padding-top: 100px;
+        /* margin-top: 100px; */
     }
 }
 
