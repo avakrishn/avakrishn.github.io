@@ -170,10 +170,9 @@ body{
 
 
 .typewriter-div{ 
-    margin-top: 14%;
-    margin-left: 5%;
-    
-  
+    padding-top: 14%;
+    padding-left: 5%;
+    width: fit-content;
 }
 
 .typewriter-message{ 
@@ -185,6 +184,7 @@ body{
 
 .purple-text{
     color: #a75cd3;
+    display: inline-block;
 }
 
 
@@ -490,7 +490,7 @@ body{
     }
 
     #intro-image{
-        height: 100%;
+        height: 50%;
     }
 
     .image-text{
@@ -505,6 +505,9 @@ body{
     }
     #socials-page-bottom{
         font-size: 40px;
+    }
+     nav .nav.navbar-nav{
+        display: flex;
     }
 }
 
@@ -604,42 +607,7 @@ body{
 
 }
 
-
-@media screen and (max-width: 450px){
-    #my-name{
-        font-size: 18px;
-    }
-
-    nav .nav.navbar-nav{
-        display: flex;
-    }
-
-    .typewriter-div{
-        line-height: 5;
-        padding-top: 60px;
-    }
-
-    .typewriter-message{
-        font-size: 31px;
-    }
-    #type-g{
-        margin-right: 150px;
-    }
-    .col-md-1{
-        display: none;
-    }
-    .col-md-10{
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding-left: 0;
-    }
-    #intro-image{
-        height: 80%;
-    }
-    .scroll{
-        margin-bottom: 28px;
-    }
+@media screen and (max-width: 590px) {
     .media-flex{
         flex-direction: column;
         justify-content: center;
@@ -654,6 +622,54 @@ body{
     .media-r-0{
         margin-right: 0;
     }
+}
+
+
+@media screen and (max-width: 450px){
+    #my-name{
+        font-size: 18px;
+    }
+
+    .typewriter-div{
+        line-height: 5;
+        padding-top: 100px;
+    }
+
+    .typewriter-message{
+        font-size: 25px;
+    }
+    #intro-image, #about-me{
+        width: 350px;
+    }
+    .col-md-1{
+        display: none;
+    }
+    .col-md-10{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0;
+    }
+    /* #intro-image{
+        height: 80%;
+    } */
+    .scroll{
+        margin-bottom: 28px;
+    }
+    /* .media-flex{
+        flex-direction: column;
+        justify-content: center;
+    } */
+    /* #myImage{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .about-me-text-under-photo{
+        margin-left: 20px;
+    }
+    .media-r-0{
+        margin-right: 0;
+    } */
 
     .media-nav-container{
         padding-left: 0;
@@ -664,20 +680,80 @@ body{
     #about-github, #about-linkedin, #about-email, #about-overflow, #about-repl, #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
         margin: 30px 17px;
     }
+    .about-me{
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 380px){
     #my-name{
         font-size: 17px;
     }
-    #intro-image{
+    /* #intro-image{
         height: 87%;
+    } */
+    .light-background{
+        /* width: 340px; */
+        padding: 0;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: 0;
+    }
+    footer{
+        width: 100%;
+        padding-right: 20px;
+        margin-right: 0;
+    }
+    .about-me{
+        padding-left: 0px;
+    }
+    #about-github, #about-linkedin, #about-email, #about-overflow, #about-repl, #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
+        margin: 30px 10px;
+    }
+    .created-divider{
+        padding-top: 20px;
+    }
+    .typewriter-div{
+        line-height: 4;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        /* width: 320px; */
+    }
+    #intro-image, #about-me{
+        width: 300px;
+    }
+    .purple-text{
+        display: inline-block;
+    }
+
+    #my-name{
+        width: 250px;
+    }
+
+    .typewriter-message{
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width: 415px){
-    #intro-image{
+    /* #intro-image{
         height: 87%;
+    } */
+    .created-images-parent{
+        width: 300px;
+    }
+    .w-330px{
+        width: 300px;
+    }
+    .col-sm-7, .col-md-7{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+        width: 300px;
+    }
+    #type-g{
+        display:inline-block;
     }
 }
 
@@ -688,25 +764,9 @@ body{
 }
 
 @media screen and (max-width: 325px){
-    .created-images-parent{
-        width: 320px;
+    #my-name{
+        font-size: 15px;
     }
-    .w-330px{
-        width: 320px;
-    }
-    .light-background{
-        width: 330px;
-        padding: 0;
-        padding-right: 20px;
-    }
-    footer{
-        width: 111.5%;
-        padding-right: 20px
-    }
-    .about-me{
-        padding-left: 40px;
-    }
-    #about-github, #about-linkedin, #about-email, #about-overflow, #about-repl, #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
-        margin: 30px 10px;
-    }
+
 }
+
