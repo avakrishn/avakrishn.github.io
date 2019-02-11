@@ -42,7 +42,10 @@ body{
     height: auto; 
     border-radius: 9px;
     /* margin-bottom: 15px; */
-    margin-left: 11%;
+    /* margin-left: 11%; */
+    float: left;
+    margin-right: 30px; 
+    margin-bottom: 15px;
 }
 
 .about-me{
@@ -70,6 +73,8 @@ body{
     flex-direction: row;
     justify-content: center;
     font-size: 35px;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 #socials-page-bottom{
@@ -206,7 +211,7 @@ body{
     /* color: rgb(128, 128, 128); */
     color: rgb(158, 135, 112);
 
-    margin-left: 20px;
+    /* margin-left: 20px; */
     font-size: 19px;
 }
 
@@ -295,7 +300,16 @@ body{
 }
 
 .w-94{
-    width: 94%;
+    width: 94.5%;
+}
+
+.contact-me-text{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+    /* pb-40 contact-me-text mr-20 ml-20 w-83 */
 }
 
 .w-330px{
@@ -339,6 +353,10 @@ body{
 
 .mt-30{
     margin-top: 40px;
+}
+
+.ml-11{
+    margin-left: 11%;
 }
 
 .pb-10{
@@ -490,210 +508,15 @@ body{
     opacity: 0.85;
 }
 
-@media screen and (max-width: 767px) {
-    .row.content {height:auto;} 
+/* ------------Media Queries for Responsive Styling------------*/
 
-    .center-picture{
-        width: 100%;
-    }
-
-    #intro-image{
-        height: 60%;
-    }
-
-    .image-text{
-        margin-left: 0px;
-    }
-    #intro-image, #about-me{
-        background-image: none;
-    }
-    #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
-        text-decoration: none;
-        margin: 35px 22px;
-    }
-    #socials-page-bottom{
-        font-size: 40px;
-    }
-     nav .nav.navbar-nav{
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 2000px){
-    #hangmanText, #rpgText, #triviaText, #rutgersText, #scissorsText{
-        font-size: 300%;
-    }
-    a, .footer-text{
-        font-size: 200%;
-    }
-    strong{
-        font-size: 200%;
-    }
-    .navbar-brand{
-        margin-top: 20px;
-    }
-
-    .nav.navbar-nav li.active a {
-        padding: 30px;
-    }
-    .project, .projects, .contact{
-        margin: 15px;
-        margin-bottom: 0px;
-    }
-
-    .glyphicon{
-        font-size: 30px;
-    }
-} 
-
-
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1026px){
-    #intro-image, #about-me{
-        background-attachment: scroll;
-        min-height: 0%;
-        background-image: none;
-        padding: 0;
-    }
-
-    .typewriter-div, .about-me{
-        min-width: 100%;
-        margin-bottom: 25px;
-    }
-
-}
-
-@media screen and (max-width: 1026px) {
-    #intro-image, #about-me{
-        background-attachment: scroll;
-        min-height: 0%;
-        background-image: none;
-        padding: 0;
-    }
-    /* #intro-image{
-        height: 45%;
-    } */
-
-    .typewriter-div, .about-me{
-        min-width: 100%;
-        margin-bottom: 25px;
-    }
-    .col-md-1{
-        display: none;
-    }
-    .col-md-10{
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-
-
-@media screen and (min-device-width: 1024px){
-    
-    #intro-image, #about-me{
-        padding: 0;
-    }
-} 
-
-
-@media screen and (max-width: 1225px){
-    #intro-image, #about-me {
-        background-size: 54.5% 100%;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .typewriter-message{
-        font-size: 31px;
-    }
-    #about-divider, .created-divider{
-        font-size: 24px;
-    }
-
-}
-
-@media screen and (max-width: 590px) {
-    .media-flex{
-        flex-direction: column;
-        justify-content: center;
-    }
-    #myImage{
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .about-me-text-under-photo{
-        margin-left: 20px;
-    }
-    .media-r-0{
-        margin-right: 0;
-    }
-}
-
-
-@media screen and (max-width: 450px){
+/* @media screen and (max-width: 325px){
     #my-name{
-        font-size: 18px;
+        font-size: 14px;
     }
+    
 
-    .typewriter-div{
-        line-height: 5;
-        padding-top: 80px;
-    }
-
-    .typewriter-message{
-        font-size: 25px;
-    }
-    #intro-image, #about-me{
-        width: 350px;
-    }
-    .col-md-1{
-        display: none;
-    }
-    .col-md-10{
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* #intro-image{
-        height: 80%;
-    } */
-    .scroll{
-        margin-bottom: 28px;
-    }
-    /* .media-flex{
-        flex-direction: column;
-        justify-content: center;
-    } */
-    /* #myImage{
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .about-me-text-under-photo{
-        margin-left: 20px;
-    }
-    .media-r-0{
-        margin-right: 0;
-    } */
-
-    .media-nav-container{
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .about-divider{
-        padding-top: 20px;
-    }
-    #about-github, #about-linkedin, #about-email, #about-overflow, #about-repl, #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
-        margin: 30px 17px;
-    }
-    .about-me{
-        padding-left: 0;
-    }
-}
+} */
 
 @media screen and (max-width: 380px){
     #my-name{
@@ -791,13 +614,256 @@ body{
     #type-h{
         padding-bottom: 40px;
     }
+    /* .w-94{
+        width: 100%;
+    } */
 }
 
-/* @media screen and (max-width: 325px){
+
+@media screen and (max-width: 450px){
     #my-name{
-        font-size: 14px;
+        font-size: 18px;
     }
+
+    .typewriter-div{
+        line-height: 5;
+        padding-top: 80px;
+    }
+
+    .typewriter-message{
+        font-size: 25px;
+    }
+    #intro-image, #about-me{
+        width: 350px;
+    }
+    .col-md-1{
+        display: none;
+    }
+    .col-md-10{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* #intro-image{
+        height: 80%;
+    } */
+    .scroll{
+        margin-bottom: 28px;
+    }
+    /* .media-flex{
+        flex-direction: column;
+        justify-content: center;
+    } */
+    /* #myImage{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .about-me-text-under-photo{
+        margin-left: 20px;
+    }
+    .media-r-0{
+        margin-right: 0;
+    } */
+
+    .media-nav-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about-divider{
+        padding-top: 20px;
+    }
+    #about-github, #about-linkedin, #about-email, #about-overflow, #about-repl, #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
+        margin: 30px 17px;
+    }
+    .about-me{
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 590px) {
+    .media-flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #myImage{
+        float: none;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        /* margin-bottom: 20px; */
+        margin-bottom: 5%;
+        /* margin-right: 0%; */
+    }
+    /* .w-94{
+        width: 100%;
+    } */
+
+    .ml-11{
+        margin-left: 0%;
+    }
+    .about-me-text{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .about-me-text-under-photo{
+        margin-left: 20px;
+    }
+    .media-r-0{
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 765px) and (max-width: 890px){
+    .skills-div-parent{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .row.content {height:auto;} 
+
+    .center-picture{
+        width: 100%;
+    }
+
+    #intro-image{
+        height: 60%;
+    }
+
+    .image-text{
+        margin-left: 0px;
+    }
+    #intro-image, #about-me{
+        background-image: none;
+    }
+    #about-github-page-bottom, #about-linkedin-page-bottom, #about-email-page-bottom, #about-overflow-page-bottom, #about-repl-page-bottom{
+        text-decoration: none;
+        margin: 35px 22px;
+    }
+    #socials-page-bottom{
+        font-size: 40px;
+    }
+    .skills-div-parent{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+     nav .nav.navbar-nav{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .typewriter-message{
+        font-size: 31px;
+    }
+    #about-divider, .created-divider{
+        font-size: 24px;
+    }
+
+}
+ 
+
+@media screen and (min-width: 890px) and (max-width: 1200px){
+    .skills-div-parent{
+        width: 80%;
+    }
+} 
+
+@media screen and (min-device-width: 1024px){
     
+    #intro-image, #about-me{
+        padding: 0;
+    }
+} 
 
-} */
 
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1026px){
+    #intro-image, #about-me{
+        background-attachment: scroll;
+        min-height: 0%;
+        background-image: none;
+        padding: 0;
+    }
+
+    .typewriter-div, .about-me{
+        min-width: 100%;
+        margin-bottom: 25px;
+    }
+
+}
+
+
+@media screen and (max-width: 1026px) {
+    #intro-image, #about-me{
+        background-attachment: scroll;
+        min-height: 0%;
+        background-image: none;
+        padding: 0;
+    }
+    /* #intro-image{
+        height: 45%;
+    } */
+
+    /* .w-94{
+        width: 100%;
+    }
+
+    .ml-11{
+        margin: 0 auto;
+        margin-right: 11%;
+        margin-left: 11%;
+        
+    } */
+
+    .typewriter-div, .about-me{
+        min-width: 100%;
+        margin-bottom: 25px;
+    }
+    .col-md-1{
+        display: none;
+    }
+    .col-md-10{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1225px){
+    #intro-image, #about-me {
+        background-size: 54.5% 100%;
+    }
+}
+
+
+@media screen and (min-width: 2000px){
+    #hangmanText, #rpgText, #triviaText, #rutgersText, #scissorsText{
+        font-size: 300%;
+    }
+    a, .footer-text{
+        font-size: 200%;
+    }
+    strong{
+        font-size: 200%;
+    }
+    .navbar-brand{
+        margin-top: 20px;
+    }
+
+    .nav.navbar-nav li.active a {
+        padding: 30px;
+    }
+    .project, .projects, .contact{
+        margin: 15px;
+        margin-bottom: 0px;
+    }
+
+    .glyphicon{
+        font-size: 30px;
+    }
+} 
