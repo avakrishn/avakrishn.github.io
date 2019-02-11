@@ -380,8 +380,9 @@ body{
 }
 
 .mb-5{
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
+
 
 .mt-10{
     margin-top: 10px;
@@ -834,12 +835,24 @@ body{
     }
 }
 
+@media screen and (min-width: 1052px) and (max-width: 1242px){
+    .contact-me-text {
+       width: 65%;
+    }
+}
+
 @media screen and (max-width: 1225px){
     #intro-image, #about-me {
         background-size: 54.5% 100%;
     }
 }
 
+
+@media screen and (min-width: 1400px){
+    .contact-me-text {
+       width: 85%;
+    }
+}
 
 @media screen and (min-width: 2000px){
     #hangmanText, #rpgText, #triviaText, #rutgersText, #scissorsText{
