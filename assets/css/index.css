@@ -433,6 +433,7 @@ body{
     border-radius: 6px;
     padding: 0px 3px;
     margin: 3px;
+    background-color: white;
 }
 
 .skills-div-parent{
@@ -490,6 +491,7 @@ body{
 
 .front-end-stack, .back-end-stack, .other-tech-stack{
     display: inline-block;
+    background-color: white;
 }
 
 .line-height-30{
@@ -847,6 +849,17 @@ body{
     }
 }
 
+@media screen and (min-width: 1368px) and (max-width: 1400px){
+    .contact-me-text {
+       width: 75%;
+    }
+}
+
+@media screen and (min-width: 1318px) and (max-width: 1368px){
+    .contact-me-text {
+       width: 77%;
+    }
+}
 
 @media screen and (min-width: 1400px){
     .contact-me-text {
