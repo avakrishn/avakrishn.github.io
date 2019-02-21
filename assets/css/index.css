@@ -218,6 +218,7 @@ body{
 .about-me-text-under-photo{
     /* color: rgb(128, 128, 128); */
     color: rgb(158, 135, 112);
+    text-decoration: none;
     font-size: 19px;
     margin-left: 11%;
     width: 90%;
