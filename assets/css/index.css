@@ -223,6 +223,12 @@ body{
     width: 90%;
 }
 
+#dev-camp-article{
+    color: rgb(158, 135, 112);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(158, 135, 112);
+}
+
 .created-divider{
     margin-top: 40px;
     margin-bottom: 40px;
