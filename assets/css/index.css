@@ -235,6 +235,12 @@ body{
     border-bottom: 1px solid rgb(158, 135, 112);
 }
 
+#dev-camp-article:visited{
+    text-decoration: none;
+    color: rgb(158, 135, 112);
+    border-bottom: 1px solid rgb(158, 135, 112);
+}
+
 .created-divider{
     margin-top: 40px;
     margin-bottom: 40px;
