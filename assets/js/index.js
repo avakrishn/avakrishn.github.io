@@ -82,6 +82,16 @@ window.onload = function() {
         // $('.scroll').hide();
         // $('#navbar-index').show();
     }; 
+
+
+    
+
+    $(".bounce").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about-divider").offset().top - 55
+            // document.getElementById('').scrollIntoView();
+        }, 2000);
+    });
     
     // window.onclick = function(){
     //     // App.speed = 30;
